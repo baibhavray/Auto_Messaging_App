@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#234E70"
+    >
+    <TextView
+        android:text = "Enter Incoming Text : "
+        android:textSize="25dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/etIncomingText"
+        android:layout_width="match_parent"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:text = "Enter Outgoing Text : "
+        android:textSize="25dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/etOutgoingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/btnSave"
+        android:text="SAVE"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/btnView"
+        android:text="VIEW"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
